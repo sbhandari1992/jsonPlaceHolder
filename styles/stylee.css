@@ -1,0 +1,10 @@
+* {
+    padding: 2%;
+}
+#outputDiv {
+    /* background-color: red; */
+    /* border: 3px solid red; */
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 20px;
+}
