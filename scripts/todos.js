@@ -9,7 +9,7 @@ function myFunction() {
     .then((response) => response.json())
 
     .then((data) => {
-        let ans = data.completed == true ? 'completed' : 'not completed';
-      outputDiv.innerHTML = `ID ${data.id} with title name ${data.title} is ${ans}.`;
+        let answer = data.completed == true ? 'completed' : 'not completed';
+      outputDiv.innerHTML = `ID ${data.id} with title name "${data.title}" is ${answer}.`;
     });
 }
